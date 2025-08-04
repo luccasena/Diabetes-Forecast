@@ -45,7 +45,7 @@ A aplicação combina um modelo preditivo de Machine Learning com um agente de I
 1. Clone o repositório:
 
 ```bash 
-git clone https://github.com/luccasena/B3-Multiagent-Analyst.git
+git clone https://github.com/luccasena/Diabetes-Forecast.git
 ```
 
 2. Crie o ambiente virtual:
@@ -64,10 +64,10 @@ venv/Scripts/activate
 ```bash 
 pip install -r requirements.txt
 ```
-5. Configure sua Chave de API:
+5. Configure sua Chave de API, crie um arquivo '.env' e adicione:
 
 ```bash 
-pip install -r requirements.txt
+GROQ_API_KEY=sua chave de api
 ```
 
 6. Execute a interface web:

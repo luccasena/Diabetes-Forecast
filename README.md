@@ -32,13 +32,13 @@ A aplicação combina um modelo preditivo de Machine Learning com um agente de I
 ### Imagens da Aplicação:
 
 #### 1. Home:
-<img src="img/home.png" alt=""></img>
+<img src="media/home.png" alt=""></img>
 
 #### 2. Dados Preenchidos:
-<img src="img/dataInput.png" alt=""></img>
+<img src="media/dataInput.png" alt=""></img>
 
 #### 3. Relatório do Agente de IA:
-<img src="img/report.png" alt=""></img>
+<img src="media/report.png" alt=""></img>
 
 ### 💻 Como Executar o Projeto
 

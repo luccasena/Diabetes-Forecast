@@ -27,7 +27,7 @@ A aplicação combina um modelo preditivo de Machine Learning com um agente de I
 
 ### 🤖 IA Generativa
 
-- Modelo de linguagem: llama3-70b-8192 (via Groq API)
+- Modelo de linguagem: openai/gpt-oss-20b (via Groq API)
 
 ### Imagens da Aplicação:
 

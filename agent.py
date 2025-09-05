@@ -77,7 +77,7 @@ def agentDiagnosis(name, patient_data, prediction, prediction_proba):
     messages.append(prompt[0])
 
     response = client.chat.completions.create(
-        model="llama3-70b-8192",
+        model="openai/gpt-oss-20b",
         messages=messages.copy(),
         temperature=0.7,
         stop=None,

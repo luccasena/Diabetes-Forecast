@@ -70,7 +70,6 @@ if st.button("Gerar Previsão e Relatório", key="predict_button"):
         transformer = joblib.load("ml_models/transformer.pkl")
 
         # Tratando os dados de entrada:
-        genero = 1 if genero == "Masculino" else 0
         historico_familiar = 1 if historico_familiar == "Sim" else 0
 
         # Transformando os dados de entrada em um array numpy:
@@ -109,7 +108,6 @@ if st.button("Gerar Previsão e Relatório", key="predict_button"):
         st.session_state['proba']
     )
         
-        # Chamando a função agentDiagnosis para obter o relatório do agente de IA
         st.markdown("---")
         st.subheader("Relatório do Agente de Diagnóstico Médico:")
         st.session_state.relatorio_gerado = False
